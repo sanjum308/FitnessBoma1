@@ -11,9 +11,9 @@ function init() {
   root.renderer.setClearColor(0x000000, 0);
   root.renderer.setPixelRatio(window.devicePixelRatio || 1);
   root.camera.position.set(40, -20, 60);
-
-  var width = 120;
-  var height = 60;
+//alert(window.innerHeight);
+  var width = window.innerWidth/11.4;//120;
+  var height = window.innerHeight/11;//;60;
 
   var slide = new Slide(width, height, 'out');
 	var l1 = new THREE.ImageLoader();
